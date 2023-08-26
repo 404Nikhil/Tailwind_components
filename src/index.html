@@ -9,7 +9,7 @@
     <script src="/src/csl.js" defer></script>
         <title>Tailwind static</title>
   </head>
-  <body class="relative h-full">
+  <body class="bg-gray-900 relative h-full">
     <div class="bg-gray-900">
       <header class="absolute inset-x-0 top-0 z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -126,27 +126,27 @@
       </div>
 </div>
 
-<div
-class="border border-brand-primary bg-red-600 border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden p-12 relative"
+<div style="height: 300px;"
+class=" container lg:p-20 mt-6 overflow-hidden p-12 relative"
 >
-<div class="flex animate max-h-screen absolute bg-red-500 left-0">
-  <div class="flex w-75 justify-around bg-red-600 items-center logo">
+<div class="flex animate max-h-screen absolute left-0">
+  <div class="flex w-75 justify-around  items-center logo">
     <a href="" ><img class="p-6 m-4" src="/assets/1.jpg"/></a>
-     <a href="" ><img class="p-6 m-4" src="/assets/1.jpg"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
+     <a href="" ><img class="p-6 m-4" src="/assets/2.jpg"/></a>
+     <a href="" ><img src="/assets/3.jpg" class="p-6 m-4"/></a>
+     <a href="" ><img src="/assets/4.jpg" class="p-6 m-4"/></a>
+     <a href="" ><img src="/assets/5.jpg" class="p-6 m-4"/></a>
+     <a href="" ><img src="/assets/6.jpg" class="p-6 m-4"/></a>
+     <a href="" ><img src="/assets/7.jpg" class="p-6 m-4"/></a>
   </div>
   <div class="flex w-75 justify-around items-center logo">
     <a href="" ><img class="p-6 m-4" src="/assets/1.jpg"/></a>
-     <a href="" ><img class="p-6 m-4" src="/assets/1.jpg"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
-     <a href="" ><img src="/assets/1.jpg" class="p-6 m-4"/></a>
+    <a href="" ><img class="p-6 m-4" src="/assets/2.jpg"/></a>
+    <a href="" ><img src="/assets/3.jpg" class="p-6 m-4"/></a>
+    <a href="" ><img src="/assets/4.jpg" class="p-6 m-4"/></a>
+    <a href="" ><img src="/assets/5.jpg" class="p-6 m-4"/></a>
+    <a href="" ><img src="/assets/6.jpg" class="p-6 m-4"/></a>
+    <a href="" ><img src="/assets/7.jpg" class="p-6 m-4"/></a>
   </div>
 </div>
 </div>
@@ -157,17 +157,18 @@ class="border border-brand-primary bg-red-600 border-l-0 border-r-0 container lg
       left: 0;
     }
     100% {
-      left: -250%;
+      left: -200%;
     }
   }
   .animate {
-    width: 500%;
+    width: 400%;
     animation: marquee 30s linear infinite;
     top: 100%;
     transform: translate(0, -50%);
   }
   .logo a {
-    width: 500px;
+    width: 400px;
+    height: 650px;
     -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   }
   @screen lg {
@@ -176,17 +177,18 @@ class="border border-brand-primary bg-red-600 border-l-0 border-r-0 container lg
         left: 0;
       }
       100% {
-        left: -250%;
+        left: -200%;
       }
     }
     .animate {
-      width: 500%;
+      width: 400%;
       animation: marquee 20s linear infinite;
       top: 50%;
       transform: translate(0, -50%);
     }
     .logo a {
-      width: 500px;
+      width: 400px;
+    height: 650px;
       -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     }
   }
